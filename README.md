@@ -41,3 +41,31 @@ Module organization
 4. scratch/ — Sandbox and Experiments
 
 A general purpose folder used throughout the course for quick tests, experiments, and code samples.
+
+Tech Stack
+
+NestJS – Structured, modular Node.js framework for building scalable server-side applications
+
+TypeScript – Strongly typed JavaScript for cleaner, safer, and more maintainable code
+
+Node.js – Runtime environment powering all backend logic
+
+class-validator / class-transformer – Validation and transformation utilities for DTOs
+
+npm – Dependency management and project tooling
+
+ESLint & Prettier (course defaults) – Code quality and formatting (where applicable)
+
+Purpose of This Repository
+
+This repository serves to:
+
+Track progress through NestJS: The Complete Developer’s Guide by Stephen Grider
+
+Reinforce key NestJS concepts through practical, hands-on projects
+
+Provide clean, self-contained reference examples for future projects
+
+Build a compact portfolio demonstrating core NestJS fundamentals
+
+Experiment with architectural patterns, decorators, modules, providers, and validation techniques
