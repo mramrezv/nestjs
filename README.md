@@ -1,7 +1,7 @@
 NestJS Projects — Based on NestJS: The Complete Developer’s Guide
 
 This repository contains multiple small NestJS projects created while completing NestJS: The Complete Developer’s Guide by Stephen Grider.
-Each folder is an independent NestJS application focused on a specific concept such as routing, validation, dependency injection, and module design.
+Each folder is an independent NestJS application focused on specific concepts such as routing, validation, dependency injection, and module design.
 
 Projects Included
 1. car-val/ — Car Validation API
@@ -12,7 +12,7 @@ DTO validation using class-validator
 
 Pipes and request transformation
 
-Basic controller, service, and module patterns
+Basic controller, service, and module architecture
 
 2. di/ — Dependency Injection Examples
 
@@ -40,32 +40,32 @@ Module organization
 
 4. scratch/ — Sandbox and Experiments
 
-A general purpose folder used throughout the course for quick tests, experiments, and code samples.
+A general-purpose folder used throughout the course for quick tests, experiments, and code exploration.
 
 Tech Stack
 
-NestJS – Structured, modular Node.js framework for building scalable server-side applications
+NestJS – Framework for building scalable, modular server-side applications
 
-TypeScript – Strongly typed JavaScript for cleaner, safer, and more maintainable code
+TypeScript – Strongly typed language improving safety and maintainability
 
-Node.js – Runtime environment powering all backend logic
+Node.js – Backend runtime environment
 
-class-validator / class-transformer – Validation and transformation utilities for DTOs
+class-validator / class-transformer – Tools for DTO validation and transformation
 
-npm – Dependency management and project tooling
+npm – Dependency and project management
 
-ESLint & Prettier (course defaults) – Code quality and formatting (where applicable)
+ESLint & Prettier – Code quality and formatting tools (course defaults)
 
 Purpose of This Repository
 
-This repository serves to:
+This repository was created to:
 
-Track progress through NestJS: The Complete Developer’s Guide by Stephen Grider
+Track progress through NestJS: The Complete Developer’s Guide
 
-Reinforce key NestJS concepts through practical, hands-on projects
+Reinforce key NestJS concepts through hands-on projects
 
-Provide clean, self-contained reference examples for future projects
+Provide clean, self-contained reference examples for future use
 
-Build a compact portfolio demonstrating core NestJS fundamentals
+Build a compact portfolio demonstrating NestJS fundamentals
 
 Experiment with architectural patterns, decorators, modules, providers, and validation techniques
