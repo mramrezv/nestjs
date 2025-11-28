@@ -1,90 +1,43 @@
 NestJS Projects — Based on NestJS: The Complete Developer’s Guide
 
 This repository contains multiple small NestJS projects created while completing NestJS: The Complete Developer’s Guide by Stephen Grider.
-Each project is an independent application demonstrating a core NestJS concept such as modules, controllers, dependency injection, validation, and request handling.
+Each folder is an independent NestJS application focused on a specific concept such as routing, validation, dependency injection, and module design.
 
 Projects Included
 1. car-val/ — Car Validation API
 
-Demonstrates:
+Covers:
 
-DTO validation (class-validator)
+DTO validation using class-validator
 
-Pipes and transformations
+Pipes and request transformation
 
-Basic module and service architecture
+Basic controller, service, and module patterns
 
 2. di/ — Dependency Injection Examples
 
-Demonstrates:
+Covers:
 
-Provider patterns
+How NestJS providers work
 
 Custom providers
 
-Factory/value providers
+Factory and value providers
 
-How the NestJS DI container works
+Understanding the NestJS dependency injection container
 
 3. messages/ — Messaging CRUD API
 
-Demonstrates:
+Covers:
 
 REST controllers
 
-Services and in-memory data
+In-memory data storage
 
-CRUD operations
+Simple CRUD operations
 
-Module structure
+Module organization
 
-4. scratch/ — General Sandbox
+4. scratch/ — Sandbox and Experiments
 
-A folder used for quick tests and experiments throughout the course.
-Good for exploring decorators, modules, interceptors, and other features.
-
-How to Run Any Project
-
-Each project is isolated.
-To run a project:
-
-cd <project-folder>
-npm install
-npm run start:dev
-
-
-Example:
-
-cd car-val
-npm install
-npm run start:dev
-
-Tech Stack
-
-NestJS
-
-TypeScript
-
-Node.js
-
-class-validator & class-transformer
-
-npm
-
-Purpose
-
-This repository serves to:
-
-Document progress through the NestJS Developer’s Guide course
-
-Practice core NestJS features with hands-on examples
-
-Provide reference code for interviews or future projects
-
-Structure
-nestjs-projects/
-   car-val/
-   di/
-   messages/
-   scratch/
-   README.md
+A general purpose folder used throughout the course for quick tests, experiments, and code samples.
