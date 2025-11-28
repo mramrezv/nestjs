@@ -6,7 +6,7 @@ Each folder is an independent NestJS application focused on specific concepts su
 
 Tech Stack
 
-NestJS |TypeScript | Node.js | class-validator / class-transformer – Tools for DTO validation and transformation | npm | ESLint & Prettier
+NestJS | TypeScript | Node.js | class-validator / class-transformer – Tools for DTO validation and transformation | npm | ESLint & Prettier
 
 
 This repository was created to: Track progress through NestJS: The Complete Developer’s Guide
