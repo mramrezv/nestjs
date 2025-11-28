@@ -1,75 +1,55 @@
-📁 NestJS Projects — Based on NestJS: The Complete Developer’s Guide
+NestJS Projects — Based on NestJS: The Complete Developer’s Guide
 
-This repository contains a collection of NestJS projects and practice applications built while completing NestJS: The Complete Developer’s Guide by Stephen Grider.
+This repository contains multiple small NestJS projects created while completing NestJS: The Complete Developer’s Guide by Stephen Grider.
+Each project is an independent application demonstrating a core NestJS concept such as modules, controllers, dependency injection, validation, and request handling.
 
-Each folder is a standalone NestJS project demonstrating a specific concept such as dependency injection, validation, module structure, routing, and more.
-These examples serve as a hands-on learning portfolio and reference for best practices in NestJS.
-
-📚 Included Projects
+Projects Included
 1. car-val/ — Car Validation API
 
-A small API focusing on:
+Demonstrates:
 
-DTOs and validation using class-validator
+DTO validation (class-validator)
 
-Pipes and request transformation
+Pipes and transformations
 
-Controllers, services, and modules
-
-Error handling basics
+Basic module and service architecture
 
 2. di/ — Dependency Injection Examples
 
-Practice project that explores:
+Demonstrates:
 
-Providers and injectable services
+Provider patterns
 
-Custom provider patterns
+Custom providers
 
-Value & factory providers
+Factory/value providers
 
-Understanding how NestJS DI container works
+How the NestJS DI container works
 
 3. messages/ — Messaging CRUD API
 
-A simple CRUD application demonstrating:
+Demonstrates:
 
 REST controllers
 
-Services and in-memory data store
+Services and in-memory data
 
-Request mapping
+CRUD operations
 
-Module setup and architecture fundamentals
+Module structure
 
 4. scratch/ — General Sandbox
 
-A playground used throughout the course for:
+A folder used for quick tests and experiments throughout the course.
+Good for exploring decorators, modules, interceptors, and other features.
 
-Quick experiments
+How to Run Any Project
 
-Testing small features
-
-Learning decorators, interceptors, and modules
-
-Trying out concepts before applying them in real projects
-
-🚀 Running Any Project
-
-Each project is isolated and runnable independently.
-
-Navigate into a project:
+Each project is isolated.
+To run a project:
 
 cd <project-folder>
-
-
-Install dependencies:
-
 npm install
-
-
-Run the app:
-
 npm run start:dev
 
 
@@ -79,7 +59,7 @@ cd car-val
 npm install
 npm run start:dev
 
-🛠 Tech Stack
+Tech Stack
 
 NestJS
 
@@ -87,29 +67,24 @@ TypeScript
 
 Node.js
 
-class-validator / class-transformer
+class-validator & class-transformer
 
 npm
 
-🎯 Purpose of This Repo
+Purpose
 
-Document my progress through the NestJS Developer Guide course
+This repository serves to:
 
-Build practical examples that reinforce NestJS concepts
+Document progress through the NestJS Developer’s Guide course
 
-Serve as a reference for interviews and future NestJS projects
+Practice core NestJS features with hands-on examples
 
-Maintain clean, modular, real-world-style code
+Provide reference code for interviews or future projects
 
-📦 Folder Structure
+Structure
 nestjs-projects/
    car-val/
    di/
    messages/
    scratch/
    README.md
-
-🤝 Notes
-
-These projects closely follow the code and exercises from
-NestJS: The Complete Developer’s Guide, with additional improvements and personal notes.
