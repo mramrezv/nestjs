@@ -75,7 +75,7 @@ export class UsersController {
     } */
 
     @Get()
-    findAllUsers(@Query('email') email: string){
+    async findAllUsers(@Query('email') email: string){
         return this.usersService.find(email);
     }
 
