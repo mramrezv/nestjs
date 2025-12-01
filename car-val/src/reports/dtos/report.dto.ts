@@ -1,9 +1,10 @@
 import { Expose, Transform } from 'class-transformer';
+import e from 'express';
 import { User } from 'src/users/user.entity';
 
 export class ReportDto {
     @Expose()
-    id: number; 
+    id: number;
 
     @Expose()
     price: number;
@@ -26,7 +27,10 @@ export class ReportDto {
     @Expose()
     mileage: number;
 
-    @Transform(({ obj }) => obj.user.id)
+    @Expose()
+    approved: boolean;
+
+    @Transform(({ obj }) => obj.user?.id)
     @Expose()
     userId: number;
 }
