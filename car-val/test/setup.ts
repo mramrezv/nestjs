@@ -1,9 +1,14 @@
-import { rm } from "fs/promises";
-import { join } from "path";
+import { AppDataSource } from '../src/data-source';
 
-global.beforeEach(async () => {
-    try{
-        await rm(join(__dirname, '..', 'test.sqlite'));
-    }
-    catch(err){}
+beforeAll(async () => {
+  if (!AppDataSource.isInitialized) {
+    await AppDataSource.initialize();
+    await AppDataSource.runMigrations();
+  }
+});
+
+afterAll(async () => {
+  if (AppDataSource.isInitialized) {
+    await AppDataSource.destroy();
+  }
 });
